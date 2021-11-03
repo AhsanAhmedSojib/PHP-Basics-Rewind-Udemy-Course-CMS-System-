@@ -8,21 +8,18 @@
 </head>
 <body>
     <?php
-    function init(){
-        ahsan();
-        calculate();
-    }
     
-        function ahsan(){
-            echo "hello".'</br>';
-        }
+    function addnumbers($num1,$num2){
 
+        $sum=$num1+$num2;
+        return $sum;
+    }
+    $total= addnumbers(12,2);
+    echo $total.'</br>';
 
-        function calculate(){
-            echo 40222+6330;
-        }
+    $total= addnumbers(100,$total);
 
-    init();
+    echo $total;
     ?>
 </body>
 </html>

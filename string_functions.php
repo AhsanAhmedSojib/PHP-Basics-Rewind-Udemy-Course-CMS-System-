@@ -8,21 +8,12 @@
 </head>
 <body>
     <?php
-    function init(){
-        ahsan();
-        calculate();
-    }
     
-        function ahsan(){
-            echo "hello".'</br>';
-        }
+        $string='hello student';
+        echo strlen($string)."</br>";
+        echo strtoupper($string)."</br>";
+        echo strtolower($string)."</br>";
 
-
-        function calculate(){
-            echo 40222+6330;
-        }
-
-    init();
     ?>
 </body>
 </html>

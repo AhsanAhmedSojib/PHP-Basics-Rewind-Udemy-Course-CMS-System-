@@ -8,21 +8,10 @@
 </head>
 <body>
     <?php
-    function init(){
-        ahsan();
-        calculate();
-    }
     
-        function ahsan(){
-            echo "hello".'</br>';
-        }
-
-
-        function calculate(){
-            echo 40222+6330;
-        }
-
-    init();
+        const AHSAN='a';
+        echo AHSAN;
+    
     ?>
 </body>
 </html>

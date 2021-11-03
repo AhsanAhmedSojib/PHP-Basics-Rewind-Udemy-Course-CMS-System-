@@ -8,21 +8,20 @@
 </head>
 <body>
     <?php
-    function init(){
-        ahsan();
-        calculate();
-    }
     
-        function ahsan(){
-            echo "hello".'</br>';
+        function greeting($message){
+            echo $message;
         }
+    
+    greeting("hello");
 
+        function calculate($num1,$num2){
 
-        function calculate(){
-            echo 40222+6330;
+            $sum=$num1+$num2;
+            echo $sum;
         }
+        calculate(1,22);
 
-    init();
     ?>
 </body>
 </html>
